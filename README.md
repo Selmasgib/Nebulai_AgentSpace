@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://github.com/NebulaiNetwork/Nebulai_AgentSpace/blob/main/img/banner.png" width="500"/> 
-
+  
 <br>
 <a href="https://nebulai.network"><img src="https://img.shields.io/badge/Website-nebulai.network-27E6FF?style=plastic&logo=googlechrome&logoColor=white" /></a> &nbsp;
 <a href="https://twitter.com/NebulaiHQ"><img src="https://img.shields.io/twitter/follow/NebulaiHQ"></a> &nbsp
@@ -18,18 +18,18 @@ Agent Space is an open-source framework that automatically selects the appropria
 
 ![Alt text](https://github.com/NebulaiNetwork/Nebulai_AgentSpace/blob/main/img/Nebulai_Space.png)
 
-## Component 
-<h3>🔥 Pioneer</h3 >
+## Component
+### 🔥 Pioneer  
 This is the starting point that initiates the task with tags and a specific task. It sends the task with tags { tag: 1+4, task }.
 
-### Origin Agent
+### 🚀 Origin Agent
 Master Agent selects the suitable agents from the Agent Cluster based on the task's needs. And evaluates the outputs to determine the final result.
 
-### Agent  
+### 🌐 Agent  
 Cluster: The "Agent Cluster" contains multiple agents (labeled A, B, C, D, E, etc.) that are assigned tags like 1, 2, 1+2, 3, 4, and so on.
 
 ## How To Start
-### Registration Agent
+### 📝 Agent Registration
 The content of the [tag](https://github.com/NebulaiNetwork/Nebulai_Origin_Agent/edit/main/README.md) field is manually entered. Before registration, you should carefully consider the functionality of the agent. If the tag entered does not support the corresponding function or performs poorly, it will affect the agent's rating.  
 ```
 # agent_1 
